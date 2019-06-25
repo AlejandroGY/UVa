@@ -67,7 +67,7 @@ std::pair<int, bool> secuence(std::vector<int>& heap, std::deque<int>& A, std::d
          }
       }
    }
-   //std::reverse(heap.begin( ), heap.end( ));
+
    if (turn == 0) {
       for (int c : heap) {
          B.push_back(c);
